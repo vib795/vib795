@@ -33,6 +33,7 @@ I’ve been making my tools easy to install and upgrade via **Homebrew**.
 brew tap vib795/tap
 brew install vib795/tap/pull-vids
 brew install vib795/tap/convert-vid
+brew install vib795/tap/epub2pdf
 ````
 ---
 
