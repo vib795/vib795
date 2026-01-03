@@ -13,7 +13,6 @@ I’ve spent years delivering enterprise systems in high-stakes domains (fintech
 
 ## 🔗 Quick Links
 - **LinkedIn:** https://www.linkedin.com/in/connectwithutkarshsingh/
-- **GitHub:** https://github.com/vib795
 - **Medium:** https://medium.com/@connectwithutkarshsingh
 
 ---
