@@ -26,13 +26,13 @@ I’ve spent years delivering enterprise systems in high-stakes domains (fintech
 ---
 
 ## 🍺 Homebrew + OSS distribution
-I’ve been making my tools easy to install and upgrade via **Homebrew** (personal tap approach when core acceptance isn’t the right fit yet).
+I’ve been making my tools easy to install and upgrade via **Homebrew**.
 
 ### Install (example)
 ```bash
-𝗯𝗿𝗲𝘄 𝘁𝗮𝗽 𝘃𝗶𝗯𝟳𝟵𝟱/𝘁𝗮𝗽
-𝗯𝗿𝗲𝘄 𝗶𝗻𝘀𝘁𝗮𝗹𝗹 𝘃𝗶𝗯𝟳𝟵𝟱/𝘁𝗮𝗽/𝗽𝘂𝗹𝗹-𝘃𝗶𝗱𝘀
-𝗯𝗿𝗲𝘄 𝗶𝗻𝘀𝘁𝗮𝗹𝗹 𝘃𝗶𝗯𝟳𝟵𝟱/𝘁𝗮𝗽/𝗰𝗼𝗻𝘃𝗲𝗿𝘁-𝘃𝗶𝗱
+brew tap vib795/tap
+brew install vib795/tap/pull-vids
+brew install vib795/tap/convert-vid
 ````
 ---
 
