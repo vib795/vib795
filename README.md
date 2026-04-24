@@ -4,7 +4,7 @@ Create a repo named "vib795" and add this as README.md
 -->
 
 # Utkarsh Singh (vib795)
-**Software Engineering Manager | Full-Stack + Cloud (AWS/Kubernetes/Terraform) | GenAI/Agentic Systems (RAG, vector search) | Python + Java + Go**
+**Software Engineering Manager (Hands-on) | Full-Stack + Cloud (AWS/Kubernetes/Terraform) | GenAI/Agentic Systems (RAG, vector search) | Python + Java + Go**
 
 I build scalable platforms, developer tooling, and GenAI workflows end-to-end—from architecture to production-grade execution.  
 I’ve spent years delivering enterprise systems in high-stakes domains (fintech/enterprise platforms) and I also ship open-source tools that make developers’ lives easier.
