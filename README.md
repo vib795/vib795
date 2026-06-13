@@ -100,11 +100,16 @@ I write about practical engineering, cloud, and Python/Go depth.
 ## 🧰 Toolbelt
 
 - **Languages:** Python, Java, Go, TypeScript
-- **Backend:** FastAPI, Flask, Spring, Fiber, REST, Microservices
-- **Cloud/Infra:** AWS, Kubernetes, Terraform, Docker
-- **Data:** PostgreSQL (incl. vector search / pgvector), SQL, data modeling
-- **CI/CD & Quality:** GitHub Actions/Jenkins, automated scans, observability-first delivery
-- **GenAI:** RAG pipelines, embeddings, retrieval evaluation, multi-LLM integrations
+- **Backend:** FastAPI, asyncio, Flask, Spring Boot, Node.js, REST APIs, microservices, streaming (SSE), Pydantic structured outputs
+- **GenAI & Agentic:** RAG, hybrid retrieval (dense + BM25 + graph), Reciprocal Rank Fusion, cross-encoder reranking, tool/function-calling agents, multi-step orchestration, OpenAI SDK, LangChain, LangGraph, CrewAI, MCP, LiteLLM
+- **AI Eval & Responsible AI:** RAGAS, golden datasets, regression testing, guardrails, deterministic outputs, PII-aware data handling
+- **Vector & Graph Stores:** Qdrant, FAISS, pgvector, Neo4j
+- **Distributed Systems & Messaging:** Kafka, AWS EventBridge, Step Functions, SQS/SNS, caching, pub/sub, event-driven architectures
+- **Databases:** PostgreSQL, Oracle SQL, MySQL, SQLAlchemy
+- **Cloud/Infra:** AWS (EC2, S3, RDS, Lambda, Step Functions, EventBridge, API Gateway), Docker, Kubernetes, Terraform
+- **CI/CD & Version Control:** Git, GitHub, Bitbucket, Jenkins, YAML pipelines
+- **Observability & Security:** Datadog, Splunk, logging/tracing/metrics, Veracode, Twistlock, Sonar
+- **Testing:** pytest, unittest, Testify, Jest, JUnit, Mockito
 
 ---
 
