@@ -112,7 +112,7 @@ I write about practical engineering, cloud, and Python/Go depth.
 
 If you’re building platforms, developer tooling, or GenAI products that need to scale responsibly, feel free to reach out:
 
-* LinkedIn: [https://www.linkedin.com/in/connectwithutkarshsingh/](https://www.linkedin.com/in/connectwithutkarshsingh/)
+* Email: [hello@singhcodes.dev](mailto:hello@singhcodes.dev)
 
 ---
 
