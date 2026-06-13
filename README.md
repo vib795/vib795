@@ -74,6 +74,14 @@ brew install vib795/tap/epub2pdf
 * **Resume Screener** — semantic similarity / plagiarism-style detection using embeddings + retrieval
   Repo: [https://github.com/vib795/resume-screener](https://github.com/vib795/resume-screener)  <!-- update if different -->
 
+### iOS / Apple Apps
+
+* **Yantra: Second Brain** — private notes you can talk to: capture voice memos, notes, photos, and meetings stored locally on-device, with optional AI to chat with your content and auto-summarize
+  App Store: [https://apps.apple.com/us/app/yantra-second-brain/id6775635658](https://apps.apple.com/us/app/yantra-second-brain/id6775635658)
+
+* **India Passport Photo: Seva** — create compliant Indian passport photos on iPhone with fully on-device processing, validated against official VFS Global and Passport Seva requirements
+  App Store: [https://apps.apple.com/us/app/india-passport-photo-seva/id6776499863](https://apps.apple.com/us/app/india-passport-photo-seva/id6776499863)
+
 ---
 
 ## ✍️ Writing (selected)
