@@ -13,6 +13,7 @@ I’ve spent years delivering enterprise systems in high-stakes domains (fintech
 
 ## 🔗 Quick Links
 - **Portfolio:** https://www.singhcodes.dev
+- **Wrench Tools:** https://wrench.tools (everyday developer tools, hosted)
 - **LinkedIn:** https://www.linkedin.com/in/connectwithutkarshsingh/
 - **Medium:** https://medium.com/@connectwithutkarshsingh
 
