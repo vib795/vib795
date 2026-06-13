@@ -40,7 +40,7 @@ brew install vib795/tap/epub2pdf
 
 ## ⭐ Featured Projects (pinned + best-of)
 
-### GenAI Apps (if public—link them here)
+### GenAI Apps
 
 * **Meeting AI (Transcription + RAG)** — transcript → vector search → Q&A / summaries
   Repo: [https://github.com/vib795/meeting-ai](https://github.com/vib795/meeting-ai)  <!-- update if different -->
