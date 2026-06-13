@@ -39,6 +39,22 @@ brew install vib795/tap/epub2pdf
 
 ## ⭐ Featured Projects (pinned + best-of)
 
+### iOS / Apple Apps
+
+* **Yantra: Second Brain** — private notes you can talk to: capture voice memos, notes, photos, and meetings stored locally on-device, with optional AI to chat with your content and auto-summarize
+  App Store: [https://apps.apple.com/us/app/yantra-second-brain/id6775635658](https://apps.apple.com/us/app/yantra-second-brain/id6775635658)
+
+* **India Passport Photo: Seva** — create compliant Indian passport photos on iPhone with fully on-device processing, validated against official VFS Global and Passport Seva requirements
+  App Store: [https://apps.apple.com/us/app/india-passport-photo-seva/id6776499863](https://apps.apple.com/us/app/india-passport-photo-seva/id6776499863)
+
+### GenAI Apps (if public—link them here)
+
+* **Meeting AI (Transcription + RAG)** — transcript → vector search → Q&A / summaries
+  Repo: [https://github.com/vib795/meeting-ai](https://github.com/vib795/meeting-ai)  <!-- update if different -->
+
+* **Resume Screener** — semantic similarity / plagiarism-style detection using embeddings + retrieval
+  Repo: [https://github.com/vib795/resume-screener](https://github.com/vib795/resume-screener)  <!-- update if different -->
+
 ### Developer Tooling
 
 * **Flaunt GitHub** — VS Code/Cursor extension that logs coding activity and turns it into a rolling progress story
@@ -65,22 +81,6 @@ brew install vib795/tap/epub2pdf
 
 * **always-decimal** — safe conversion helpers for `Decimal` to avoid precision surprises
   Repo: [https://github.com/vib795/always-decimal](https://github.com/vib795/always-decimal)
-
-### GenAI Apps (if public—link them here)
-
-* **Meeting AI (Transcription + RAG)** — transcript → vector search → Q&A / summaries
-  Repo: [https://github.com/vib795/meeting-ai](https://github.com/vib795/meeting-ai)  <!-- update if different -->
-
-* **Resume Screener** — semantic similarity / plagiarism-style detection using embeddings + retrieval
-  Repo: [https://github.com/vib795/resume-screener](https://github.com/vib795/resume-screener)  <!-- update if different -->
-
-### iOS / Apple Apps
-
-* **Yantra: Second Brain** — private notes you can talk to: capture voice memos, notes, photos, and meetings stored locally on-device, with optional AI to chat with your content and auto-summarize
-  App Store: [https://apps.apple.com/us/app/yantra-second-brain/id6775635658](https://apps.apple.com/us/app/yantra-second-brain/id6775635658)
-
-* **India Passport Photo: Seva** — create compliant Indian passport photos on iPhone with fully on-device processing, validated against official VFS Global and Passport Seva requirements
-  App Store: [https://apps.apple.com/us/app/india-passport-photo-seva/id6776499863](https://apps.apple.com/us/app/india-passport-photo-seva/id6776499863)
 
 ---
 
