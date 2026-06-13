@@ -41,7 +41,7 @@ brew install vib795/tap/epub2pdf
 
 ### iOS / Apple Apps
 
-* **Yantra: Second Brain** — private notes you can talk to: capture voice memos, notes, photos, and meetings stored locally on-device, with optional AI to chat with your content and auto-summarize
+* **Yantra: Second Brain** — private notes you can talk to: capture voice memos, notes, photos, and meetings stored locally on-device, with on-device RAG to chat with your content and auto-summarize
   App Store: [https://apps.apple.com/us/app/yantra-second-brain/id6775635658](https://apps.apple.com/us/app/yantra-second-brain/id6775635658)
 
 * **India Passport Photo: Seva** — create compliant Indian passport photos on iPhone with fully on-device processing, validated against official VFS Global and Passport Seva requirements
