@@ -26,19 +26,30 @@ I’ve spent years delivering enterprise systems in high-stakes domains (fintech
 
 ---
 
-## 🍺 Homebrew + OSS distribution
-I’ve been making my tools easy to install and upgrade via **Homebrew**.
+## 📦 OSS distribution
+I ship my tools through the package managers people already have — **Homebrew** for the Go CLIs, **npm** for the agent tooling.
 
-### Install (example)
+### Homebrew
 ```bash
 brew tap vib795/tap
 brew install vib795/tap/pull-vids
 brew install vib795/tap/convert-vid
 brew install vib795/tap/epub2pdf
-````
+```
+
+### npm
+```bash
+npm install -g @vib795/agent-memory
+agent-memory setup
+```
 ---
 
 ## ⭐ Featured Projects (pinned + best-of)
+
+### AI Agent Tooling
+
+* **agent-memory** — durable cross-repo memory for **Claude Code** and **GitHub Copilot**. Markdown is the source of truth; a `node:sqlite` knowledge graph is a disposable index that rebuilds byte-identically. Ships `/handoff`, `/remember`, and `/recall` as user-level Agent Skills, with **zero runtime dependencies** — nothing to get approved, nothing leaves the machine.
+  Repo: [https://github.com/vib795/agent-memory](https://github.com/vib795/agent-memory) · npm: [`@vib795/agent-memory`](https://www.npmjs.com/package/@vib795/agent-memory)
 
 ### GenAI Apps
 
