@@ -14,6 +14,7 @@ I’ve spent years delivering enterprise systems in high-stakes domains (fintech
 ## 🔗 Quick Links
 - **Portfolio:** https://www.singhcodes.dev
 - **Wrench Tools:** https://wrench.tools (everyday developer tools)
+- **agent-memory on npm:** https://www.npmjs.com/package/@vib795/agent-memory (durable memory for Claude Code + Copilot)
 - **LinkedIn:** https://www.linkedin.com/in/connectwithutkarshsingh/
 - **Medium:** https://medium.com/@connectwithutkarshsingh
 
