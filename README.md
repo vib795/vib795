@@ -1,8 +1,3 @@
-<!--
-Profile README for @vib795
-Create a repo named "vib795" and add this as README.md
--->
-
 # Utkarsh Singh (vib795)
 **Software Engineering Manager (Hands-on) | Full-Stack + Cloud (AWS/Kubernetes/Terraform) | GenAI/Agentic Systems (RAG, vector search) | Python + Java + Go**
 
@@ -54,11 +49,10 @@ agent-memory setup
 
 ### GenAI Apps
 
-* **Meeting AI (Transcription + RAG)** — transcript → vector search → Q&A / summaries
-  Repo: [https://github.com/vib795/meeting-ai](https://github.com/vib795/meeting-ai)  <!-- update if different -->
+* **Meeting AI (Transcription + RAG)** — transcript → vector search → Q&A / summaries _(private repo)_
 
 * **Resume Screener** — semantic similarity / plagiarism-style detection using embeddings + retrieval
-  Repo: [https://github.com/vib795/resume-screener](https://github.com/vib795/resume-screener)  <!-- update if different -->
+  Repo: [https://github.com/vib795/resume-screener](https://github.com/vib795/resume-screener)
 
 ### iOS / Apple Apps
 
@@ -86,9 +80,6 @@ agent-memory setup
   
 * **epub2pdf** — EPUB → PDF converter CLI in Go (rendering-focused)
   Repo: [https://github.com/vib795/epub2pdf](https://github.com/vib795/epub2pdf)
-
-
-  <!-- If your repo is named differently (convert-vid, convert-vid-cli, etc.), update this link -->
 
 ### Python Utilities / Libraries
 
@@ -132,10 +123,4 @@ If you’re building platforms, developer tooling, or GenAI products that need t
 * Email: [hello@singhcodes.dev](mailto:hello@singhcodes.dev)
 
 ---
-
-<!-- Optional: add GitHub stats (lightweight and popular)
-![Utkarsh's GitHub stats](https://github-readme-stats.vercel.app/api?username=vib795&show_icons=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vib795&layout=compact)
--->
-
 
