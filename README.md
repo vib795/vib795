@@ -38,14 +38,23 @@ brew install vib795/tap/epub2pdf
 npm install -g @vib795/agent-memory
 agent-memory setup
 ```
+
+### Claude Code plugin
+```bash
+claude plugin marketplace add vib795/agent-memory
+claude plugin install agent-memory@vib795
+```
 ---
 
 ## ⭐ Featured Projects (pinned + best-of)
 
 ### AI Agent Tooling
 
-* **agent-memory** — durable cross-repo memory for **Claude Code** and **GitHub Copilot**. Markdown is the source of truth; a `node:sqlite` knowledge graph is a disposable index that rebuilds byte-identically. Ships `/handoff`, `/remember`, and `/recall` as user-level Agent Skills, with **zero runtime dependencies** — nothing to get approved, nothing leaves the machine.
-  Repo: [https://github.com/vib795/agent-memory](https://github.com/vib795/agent-memory) · npm: [`@vib795/agent-memory`](https://www.npmjs.com/package/@vib795/agent-memory)
+* **agent-memory** — durable cross-repo memory for **Claude Code** and **GitHub Copilot**, built to survive an IT security review. Markdown is the source of truth; a `node:sqlite` knowledge graph is a disposable index that rebuilds byte-identically. Ships `/handoff`, `/remember`, and `/recall` as user-level Agent Skills.
+
+  **Zero runtime dependencies, zero dev dependencies, and no install script** — nothing runs when you install it, and granting it your agents is a separate, explicit command. Published from CI with a provenance attestation, and independently scanned with a passing verdict. Nothing leaves the machine: no daemon, no scheduled task, no telemetry.
+
+  Repo: [https://github.com/vib795/agent-memory](https://github.com/vib795/agent-memory) · npm: [`@vib795/agent-memory`](https://www.npmjs.com/package/@vib795/agent-memory) · [Architecture](https://github.com/vib795/agent-memory/blob/main/ARCHITECTURE.md)
 
 ### GenAI Apps
 
