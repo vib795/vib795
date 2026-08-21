@@ -45,7 +45,7 @@ Archive at [singhcodes.dev](https://www.singhcodes.dev) and [Medium](https://med
 
 Lead Engineer, AI & Platform at EY.
 
-Code intelligence over large commercial financial platforms, where retrieval is a different problem than it is over prose: chunking on AST boundaries rather than token windows, a graph store because "what calls this" is not a similarity question, and BM25 because identifiers are exactly the rare tokens embeddings handle worst. Fused with Reciprocal Rank Fusion and cross-encoder reranking, with promotion gated on RAGAS scores against golden datasets.
+Code intelligence over large commercial financial platforms, where retrieval is a different problem than it is over prose: chunking on AST boundaries rather than token windows, a graph store because "what calls this" is not a similarity question, and BM25 because identifiers are exactly the rare tokens embeddings handle worst. Fused with Reciprocal Rank Fusion and cross-encoder reranking. Promotion is gated by an eval harness with metrics written for code rather than prose — keyword recall, file-pattern hit rate, cross-module recall, citation rate — over a hand-curated golden set, compared against a versioned baseline.
 
 Alongside it, an agentic infrastructure-onboarding system that cut application provisioning from weeks to hours, with human approval gates on anything destructive.
 
