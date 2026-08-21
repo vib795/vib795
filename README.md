@@ -1,135 +1,62 @@
-# Utkarsh Singh (vib795)
-**Software Engineering Manager (Hands-on) | Full-Stack + Cloud (AWS/Kubernetes/Terraform) | GenAI/Agentic Systems (RAG, vector search) | Python + Java + Go**
+## Utkarsh Singh
 
-I build scalable platforms, developer tooling, and GenAI workflows end-to-end—from architecture to production-grade execution.  
-I’ve spent years delivering enterprise systems in high-stakes domains (fintech/enterprise platforms) and I also ship open-source tools that make developers’ lives easier.
+AI engineer. Production RAG and agentic systems at EY, on eleven years of building the platforms that move money in financial services.
 
----
-
-## 🔗 Quick Links
-- **Portfolio:** https://www.singhcodes.dev
-- **Wrench Tools:** https://wrench.tools (everyday developer tools)
-- **agent-memory on npm:** https://www.npmjs.com/package/@vib795/agent-memory (durable memory for Claude Code + Copilot)
-- **LinkedIn:** https://www.linkedin.com/in/connectwithutkarshsingh/
-- **Medium:** https://medium.com/@connectwithutkarshsingh
+Most of what I ship is built for environments where the answer to "can we install that?" is no. That constraint shapes the engineering more than anything else does.
 
 ---
 
-## 🚀 What I’m focused on
-- **Platform + Cloud Engineering:** event-driven architectures, reliability, observability, secure delivery
-- **GenAI / Agentic Systems:** RAG, embeddings, retrieval quality, multi-step automation workflows
-- **Developer Tooling:** CLI tools, VS Code/Cursor extensions, distribution + release automation (Homebrew, GoReleaser)
+### Things that run
 
----
+#### [agent-memory](https://github.com/vib795/agent-memory) · [npm](https://www.npmjs.com/package/@vib795/agent-memory) · [architecture](https://github.com/vib795/agent-memory/blob/main/ARCHITECTURE.md)
 
-## 📦 OSS distribution
-I ship my tools through the package managers people already have — **Homebrew** for the Go CLIs, **npm** for the agent tooling.
+Durable cross-repo memory for Claude Code, GitHub Copilot, and Codex.
 
-### Homebrew
+Markdown is the source of truth. A `node:sqlite` index sits on top of it as a disposable cache that rebuilds byte-identically from the notes and can be deleted at any time. **Zero runtime and zero dev dependencies**, no daemon, no scheduled task, and no network call anywhere in the source. Published from CI on a signed tag with Sigstore provenance attestation, behind 93 tests and a 12-job Linux/macOS/Windows matrix.
+
+Built because Obsidian, Notion, and every hosted memory tool die at the client's door, and adding a vendor to an approved list takes longer than the engagement does. The review here is reading 2,600 dependency-free lines, not assessing a vendor.
+
 ```bash
-brew tap vib795/tap
-brew install vib795/tap/pull-vids
-brew install vib795/tap/convert-vid
-brew install vib795/tap/epub2pdf
+npm i -g @vib795/agent-memory
 ```
 
-### npm
-```bash
-npm install -g @vib795/agent-memory
-agent-memory setup
-```
+#### [Yantra: Second Brain](https://apps.apple.com/us/app/yantra-second-brain/id6775635658) · iOS
 
-### Claude Code plugin
-```bash
-claude plugin marketplace add vib795/agent-memory
-claude plugin install agent-memory@vib795
-```
----
+An on-device RAG note system. Apple Speech transcribes, NLEmbedding vectorizes, and retrieval runs on the phone, so capture and semantic search work in airplane mode. Only the matched snippets and your question ever leave the device, under your own API key, through a proxy that stores nothing. English, Hindi, and Hinglish.
 
-## ⭐ Featured Projects (pinned + best-of)
+#### [copilot-howto](https://github.com/vib795/copilot-howto)
 
-### AI Agent Tooling
-
-* **agent-memory** — durable cross-repo memory for **Claude Code** and **GitHub Copilot**, built to survive an IT security review. Markdown is the source of truth; a `node:sqlite` knowledge graph is a disposable index that rebuilds byte-identically. Ships `/handoff`, `/remember`, and `/recall` as user-level Agent Skills.
-
-  **Zero runtime dependencies, zero dev dependencies, and no install script** — nothing runs when you install it, and granting it your agents is a separate, explicit command. Published from CI with a provenance attestation, and independently scanned with a passing verdict. Nothing leaves the machine: no daemon, no scheduled task, no telemetry.
-
-  Repo: [https://github.com/vib795/agent-memory](https://github.com/vib795/agent-memory) · npm: [`@vib795/agent-memory`](https://www.npmjs.com/package/@vib795/agent-memory) · [Architecture](https://github.com/vib795/agent-memory/blob/main/ARCHITECTURE.md)
-
-### GenAI Apps
-
-* **Meeting AI (Transcription + RAG)** — transcript → vector search → Q&A / summaries _(private repo)_
-
-* **Resume Screener** — semantic similarity / plagiarism-style detection using embeddings + retrieval
-  Repo: [https://github.com/vib795/resume-screener](https://github.com/vib795/resume-screener)
-
-### iOS / Apple Apps
-
-* **Yantra: Second Brain** — private notes you can talk to: capture voice memos, notes, photos, and meetings stored locally on-device, with on-device RAG to chat with your content and auto-summarize
-  App Store: [https://apps.apple.com/us/app/yantra-second-brain/id6775635658](https://apps.apple.com/us/app/yantra-second-brain/id6775635658)
-
-* **India Passport Photo: Seva** — create compliant Indian passport photos on iPhone with fully on-device processing, validated against official VFS Global and Passport Seva requirements
-  App Store: [https://apps.apple.com/us/app/india-passport-photo-seva/id6776499863](https://apps.apple.com/us/app/india-passport-photo-seva/id6776499863)
-
-### Developer Tooling
-
-* **Flaunt GitHub** — VS Code/Cursor extension that logs coding activity and turns it into a rolling progress story
-  Repo: [https://github.com/vib795/flaunt-github](https://github.com/vib795/flaunt-github)
-
-* **everyday-developer-tools** — web toolbox for common dev utilities (JSON, regex, diff/text helpers, etc.)
-  Repo: [https://github.com/vib795/everyday-developer-tools](https://github.com/vib795/everyday-developer-tools)
-
-### Go CLIs
-
-* **pull-vids** — universal downloader CLI (built for speed + reliability)
-  Repo: [https://github.com/vib795/pull-vids](https://github.com/vib795/pull-vids)
-
-* **convert-vid** — video format conversion CLI with concurrency + presets (FFmpeg-based)
-  Repo: [https://github.com/vib795/convert-video-formats](https://github.com/vib795/convert-video-formats)
-  
-* **epub2pdf** — EPUB → PDF converter CLI in Go (rendering-focused)
-  Repo: [https://github.com/vib795/epub2pdf](https://github.com/vib795/epub2pdf)
-
-### Python Utilities / Libraries
-
-* **always-decimal** — safe conversion helpers for `Decimal` to avoid precision surprises
-  Repo: [https://github.com/vib795/always-decimal](https://github.com/vib795/always-decimal)
+A full Copilot tutorial for the much larger group of developers who have Copilot at work and nothing else. Ten modules, open source, no signup.
 
 ---
 
-## ✍️ Writing (selected)
+### Writing
 
-I write about practical engineering, cloud, and Python/Go depth.
+- **LLM Evals: The Complete Field Guide** — inter-annotator reliability, judge calibration, cost-routed annotation, and why an eval system nobody chooses to use is a failed eval system. At [singhcodes.dev](https://www.singhcodes.dev)
+- [Advanced Guide to Asyncio, Threading, and Multiprocessing in Python](https://medium.com/p/c4dc50971d24)
+- [Understanding and Setting Up Cron Jobs in AWS for Batch Job Automation](https://medium.com/p/d15cdf334596)
+- [How to Turn Your Raspberry Pi into a Secure Travel Router](https://medium.com/p/138377eb7e02)
 
-* Medium: [https://medium.com/@connectwithutkarshsingh](https://medium.com/@connectwithutkarshsingh)
-  
-  * [Advanced Guide to Asyncio, Threading, and Multiprocessing in Python](https://medium.com/p/c4dc50971d24)
-  * [Understanding and Setting Up Cron Jobs in AWS for Batch Job Automation](https://medium.com/p/d15cdf334596)
-  * [How to Turn Your Raspberry Pi into a Secure Travel Router](https://medium.com/p/138377eb7e02)
-
----
-
-## 🧰 Toolbelt
-
-- **Languages:** Python, Java, Go, TypeScript
-- **Backend:** FastAPI, asyncio, Flask, Spring Boot, Node.js, REST APIs, microservices, streaming (SSE), Pydantic structured outputs
-- **GenAI & Agentic:** RAG, hybrid retrieval (dense + BM25 + graph), Reciprocal Rank Fusion, cross-encoder reranking, tool/function-calling agents, multi-step orchestration, OpenAI SDK, LangChain, LangGraph, CrewAI, MCP, LiteLLM
-- **AI Eval & Responsible AI:** RAGAS, golden datasets, regression testing, guardrails, deterministic outputs, PII-aware data handling
-- **Vector & Graph Stores:** Qdrant, FAISS, pgvector, Neo4j
-- **Distributed Systems & Messaging:** Kafka, AWS EventBridge, Step Functions, SQS/SNS, caching, pub/sub, event-driven architectures
-- **Databases:** PostgreSQL, Oracle SQL, MySQL, SQLAlchemy
-- **Cloud/Infra:** AWS (EC2, S3, RDS, Lambda, Step Functions, EventBridge, API Gateway), Docker, Kubernetes, Terraform
-- **CI/CD & Version Control:** Git, GitHub, Bitbucket, Jenkins, YAML pipelines
-- **Observability & Security:** Datadog, Splunk, logging/tracing/metrics, Veracode, Twistlock, Sonar
-- **Testing:** pytest, unittest, Testify, Jest, JUnit, Mockito
+Archive at [singhcodes.dev](https://www.singhcodes.dev) and [Medium](https://medium.com/@connectwithutkarshsingh).
 
 ---
 
-## 🤝 Let’s connect
+### At work
 
-If you’re building platforms, developer tooling, or GenAI products that need to scale responsibly, feel free to reach out:
+Lead Engineer, AI & Platform at EY.
 
-* Email: [hello@singhcodes.dev](mailto:hello@singhcodes.dev)
+Code intelligence over large commercial financial platforms, where retrieval is a different problem than it is over prose: chunking on AST boundaries rather than token windows, a graph store because "what calls this" is not a similarity question, and BM25 because identifiers are exactly the rare tokens embeddings handle worst. Fused with Reciprocal Rank Fusion and cross-encoder reranking, with promotion gated on RAGAS scores against golden datasets.
+
+Alongside it, an agentic infrastructure-onboarding system that cut application provisioning from weeks to hours, with human approval gates on anything destructive.
+
+Before that, four years embedded at Fidelity Investments on retail investing and institutional separately-managed-account platforms.
 
 ---
 
+### Also
+
+[India Passport Photo Seva](https://apps.apple.com/us/app/india-passport-photo-seva/id6776499863) (iOS, fully on-device) · [always-decimal](https://github.com/vib795/always-decimal) on PyPI · [everyday-developer-tools](https://github.com/vib795/everyday-developer-tools) and [wrench.tools](https://wrench.tools) · three Go CLIs ([pull-vids](https://github.com/vib795/pull-vids), [convert-vid](https://github.com/vib795/convert-video-formats), [epub2pdf](https://github.com/vib795/epub2pdf)) via `brew tap vib795/tap`
+
+---
+
+📬 hello@singhcodes.dev · [LinkedIn](https://www.linkedin.com/in/connectwithutkarshsingh/) · [singhcodes.dev](https://www.singhcodes.dev)
