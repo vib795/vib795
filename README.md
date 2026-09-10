@@ -12,9 +12,9 @@ Most of what I ship is built for environments where the answer to "can we instal
 
 Durable cross-repo memory for Claude Code, GitHub Copilot, and Codex.
 
-Markdown is the source of truth. A `node:sqlite` index sits on top of it as a disposable cache that rebuilds byte-identically from the notes and can be deleted at any time. **Zero runtime and zero dev dependencies**, no daemon, no scheduled task, and no network call anywhere in the source. Published from CI on a signed tag with Sigstore provenance attestation, behind 93 tests and a 12-job Linux/macOS/Windows matrix.
+Markdown is the source of truth. A `node:sqlite` index sits on top of it as a disposable cache that rebuilds byte-identically from the notes and can be deleted at any time. **Zero runtime and zero dev dependencies**, no daemon, no scheduled task, and no network call anywhere in the source. Published from CI on a signed tag with Sigstore provenance attestation, behind 111 tests and a 12-job Linux/macOS/Windows matrix.
 
-Built because Obsidian, Notion, and every hosted memory tool die at the client's door, and adding a vendor to an approved list takes longer than the engagement does. The review here is reading 2,600 dependency-free lines, not assessing a vendor.
+Built because Obsidian, Notion, and every hosted memory tool die at the client's door, and adding a vendor to an approved list takes longer than the engagement does. The review here is reading 4,168 dependency-free lines, not assessing a vendor.
 
 ```bash
 npm i -g @vib795/agent-memory
